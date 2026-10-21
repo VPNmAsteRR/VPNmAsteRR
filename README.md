@@ -3,6 +3,12 @@
 </p>
 
 <p align="center">
+  <a href="https://t.me/ametistovv"><img src="https://img.shields.io/badge/Telegram-@ametistovv-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
+  <a href="https://tiktok.com/@ametist8vv"><img src="https://img.shields.io/badge/TikTok-@ametist8vv-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" /></a>
+  <a href="https://github.com/VPNmAsteRR"><img src="https://img.shields.io/badge/GitHub-VPNmAsteRR-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/VPNmAsteRR?tab=overview">
     <img src="./graph.svg" alt="contributions" width="100%" />
   </a>
@@ -100,7 +106,8 @@ $ cat contacts.txt
 
 ```
   github   github.com/VPNmAsteRR
-  telegram скоро здесь
+  telegram t.me/ametistovv
+  tiktok   tiktok.com/@ametist8vv
   status   открыт к интересным задачам
 ```
 
