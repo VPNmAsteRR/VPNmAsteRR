@@ -99,7 +99,6 @@ def card(width: int, height: int, body: str) -> str:
     .m {{ font: 400 13px {MONO}; fill: {MUTED}; }}
     .v {{ font: 600 14px {SANS}; fill: {TEXT}; }}
     .big {{ font: 800 30px {SANS}; fill: {TEXT}; }}
-    .fade {{ animation: fade .5s ease-out both; }}
     @keyframes fade {{ to {{ opacity: 1; }} }}
     @keyframes pop {{ 0% {{ transform: scale(.2); opacity: 0; }} 100% {{ transform: scale(1); opacity: 1; }} }}
   </style>
@@ -184,7 +183,7 @@ def build_stats(days: dict[date, int], user: dict, repos: list[dict]) -> str:
         y = 86 + index * 26
         delay = 0.1 + index * 0.08
         body_rows.append(
-            f'  <g class="fade" style="animation-delay:{delay:.2f}s">'
+            f'  <g>'
             f'<circle cx="44" cy="{y - 5}" r="4" fill="{ACCENT}"/>'
             f'<text x="62" y="{y}" class="v">{value} <tspan fill="{MUTED}" style="font-weight:400">{label}</tspan></text>'
             f"</g>"
@@ -222,17 +221,17 @@ def build_streak(days: dict[date, int]) -> str:
     body = f'''  <text x="40" y="44" class="h">~/streak</text>
   <text x="{width - 40}" y="44" text-anchor="end" class="m">$ cat streak.log</text>
   <line x1="40" y1="62" x2="{width - 40}" y2="62" stroke="#21262d"/>
-  <g class="fade" style="animation-delay:.15s">
+  <g>
     <text x="40" y="112" class="m">streak</text>
     <text x="40" y="152" class="big" style="font-size:34px">{columns[0][1]}</text>
     <text x="40" y="174" class="m" style="font-size:11px">{columns[0][2]}</text>
   </g>
-  <g class="fade" style="animation-delay:.3s">
+  <g>
     <text x="200" y="112" class="m">best</text>
     <text x="200" y="152" class="big" style="font-size:34px">{columns[1][1]}</text>
     <text x="200" y="174" class="m" style="font-size:11px">{columns[1][2]}</text>
   </g>
-  <g class="fade" style="animation-delay:.45s">
+  <g>
     <text x="355" y="112" class="m">total</text>
     <text x="355" y="152" class="big" style="font-size:34px">{columns[2][1]}</text>
     <text x="355" y="174" class="m" style="font-size:11px">{columns[2][2]}</text>
