@@ -14,12 +14,6 @@
       <feGaussianBlur stdDeviation="4" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="type1"><rect x="330" y="88" width="0" height="30">
-      <animate attributeName="width" from="0" to="76" begin="0.5s" dur="0.7s" fill="freeze"/>
-    </rect></clipPath>
-    <clipPath id="type2"><rect x="330" y="188" width="0" height="30">
-      <animate attributeName="width" from="0" to="196" begin="2.7s" dur="1s" fill="freeze"/>
-    </rect></clipPath>
   </defs>
 
   <rect x="1" y="1" width="1198" height="298" rx="20" fill="url(#bg)" stroke="#30363d"/>
@@ -32,53 +26,26 @@
   <line x1="1" y1="54" x2="1199" y2="54" stroke="#21262d"/>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17">
-    <text x="40" y="110" fill="#56d364">ametistovv@github</text>
-    <text x="222" y="110" fill="#8b949e">:~$</text>
-    <g clip-path="url(#type1)">
-      <text x="330" y="110" fill="#f0e6ff">whoami</text>
-    </g>
-    <rect x="410" y="93" width="11" height="20" fill="#b366ff" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0;0" begin="0.2s" dur="0.9s" repeatCount="indefinite"/>
+    <text x="40" y="108" fill="#56d364">ametistovv@github</text>
+    <text x="222" y="108" fill="#8b949e">:~$</text>
+    <text x="330" y="108" fill="#f0e6ff">whoami</text>
+
+    <text x="40" y="146" fill="#c792ea" font-size="16">python-dev · telegram bots · web · games · rust</text>
+
+    <text x="40" y="204" fill="#56d364">ametistovv@github</text>
+    <text x="222" y="204" fill="#8b949e">:~$</text>
+    <text x="330" y="204" fill="#d2a8ff">./build --profile</text>
+
+    <rect x="40" y="226" width="380" height="10" rx="5" fill="#7c3aed"/>
+    <text x="440" y="236" fill="#8b949e" font-size="13">100%</text>
+
+    <text x="40" y="270" fill="#56d364" font-size="14">✓ bots</text>
+    <text x="130" y="270" fill="#56d364" font-size="14">✓ services</text>
+    <text x="240" y="270" fill="#56d364" font-size="14">✓ games</text>
+    <text x="330" y="270" fill="#56d364" font-size="14">✓ AI</text>
+
+    <rect x="1090" y="190" width="11" height="20" fill="#b366ff" filter="url(#glow)">
+      <animate attributeName="opacity" values="1;1;0;0;1;1" dur="1.1s" repeatCount="indefinite"/>
     </rect>
-
-    <text x="40" y="146" fill="#c792ea" font-size="16" opacity="0">
-      python-dev · telegram bots · web · games · rust
-      <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.5s" fill="freeze"/>
-    </text>
-
-    <text x="40" y="210" fill="#56d364">ametistovv@github</text>
-    <text x="222" y="210" fill="#8b949e">:~$</text>
-    <g clip-path="url(#type2)">
-      <text x="330" y="210" fill="#d2a8ff">./build --profile</text>
-    </g>
-    <rect x="526" y="193" width="11" height="20" fill="#b366ff" filter="url(#glow)" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0;0" begin="2.4s" dur="0.9s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="40" y="232" width="0" height="10" rx="5" fill="#7c3aed" opacity="0">
-      <animate attributeName="width" from="0" to="380" begin="3.6s" dur="1.2s" fill="freeze"/>
-      <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.1s" fill="freeze"/>
-    </rect>
-    <text x="440" y="242" fill="#8b949e" font-size="13" opacity="0">
-      100%
-      <animate attributeName="opacity" from="0" to="1" begin="4.8s" dur="0.2s" fill="freeze"/>
-    </text>
-
-    <text x="40" y="272" fill="#56d364" font-size="14" opacity="0">
-      ✓ bots
-      <animate attributeName="opacity" from="0" to="1" begin="4.9s" dur="0.2s" fill="freeze"/>
-    </text>
-    <text x="130" y="272" fill="#56d364" font-size="14" opacity="0">
-      ✓ services
-      <animate attributeName="opacity" from="0" to="1" begin="5.1s" dur="0.2s" fill="freeze"/>
-    </text>
-    <text x="240" y="272" fill="#56d364" font-size="14" opacity="0">
-      ✓ games
-      <animate attributeName="opacity" from="0" to="1" begin="5.3s" dur="0.2s" fill="freeze"/>
-    </text>
-    <text x="330" y="272" fill="#56d364" font-size="14" opacity="0">
-      ✓ AI
-      <animate attributeName="opacity" from="0" to="1" begin="5.5s" dur="0.2s" fill="freeze"/>
-    </text>
   </g>
 </svg>

@@ -99,7 +99,7 @@ def card(width: int, height: int, body: str) -> str:
     .m {{ font: 400 13px {MONO}; fill: {MUTED}; }}
     .v {{ font: 600 14px {SANS}; fill: {TEXT}; }}
     .big {{ font: 800 30px {SANS}; fill: {TEXT}; }}
-    .fade {{ opacity: 0; animation: fade .6s ease-out forwards; }}
+    .fade {{ animation: fade .5s ease-out both; }}
     @keyframes fade {{ to {{ opacity: 1; }} }}
     @keyframes pop {{ 0% {{ transform: scale(.2); opacity: 0; }} 100% {{ transform: scale(1); opacity: 1; }} }}
   </style>
@@ -128,7 +128,7 @@ def build_graph(days: dict[date, int]) -> str:
         count = days[day]
         label = f"{count} contributions on {day:%B} {day.day}"
         grid.append(
-            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{LEVEL_COLORS[level(count)]}" class="fade" style="animation-delay:{(col * 0.006 + row * 0.004):.3f}s">'
+            f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{LEVEL_COLORS[level(count)]}">'
             f"<title>{label}</title></rect>"
         )
 
@@ -279,7 +279,7 @@ def main() -> None:
 
     blurbs = {
         "time-clicker": "Браузерная игра-кликер на чистом HTML и JavaScript.",
-        "TeleGBot": "Telegram-бот на Python — репозиторий в работе.",
+        "vozduhan": "Мини-игра для Яндекс Игр: 15 уровней, диалоги и WebAudio.",
     }
     pins = [r for r in repos if r["name"] in blurbs][:2]
     for position, repo in enumerate(pins, start=1):

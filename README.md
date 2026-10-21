@@ -1,27 +1,29 @@
 <p align="center">
-  <img src="./banner.svg" alt="ametistovv@github — terminal" width="100%" />
+  <a href="https://github.com/VPNmAsteRR">
+    <img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/banner.svg" alt="ametistovv@github — terminal" width="100%" />
+  </a>
 </p>
 
 <p align="center">
   <a href="https://t.me/ametistovv"><img src="https://img.shields.io/badge/Telegram-@ametistovv-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
   <a href="https://tiktok.com/@ametist8vv"><img src="https://img.shields.io/badge/TikTok-@ametist8vv-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok" /></a>
-  <a href="https://github.com/VPNmAsteRR"><img src="https://img.shields.io/badge/GitHub-VPNmAsteRR-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://github.com/VPNmAsteRR?tab=repositories"><img src="https://img.shields.io/badge/GitHub-проекты-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 <p align="center">
   <a href="https://github.com/VPNmAsteRR?tab=overview">
-    <img src="./graph.svg" alt="contributions" width="100%" />
+    <img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/graph.svg" alt="график контрибуций" width="100%" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/VPNmAsteRR?tab=overview"><img src="./stats.svg" height="165.5" alt="stats" /></a>
-  <a href="https://github.com/VPNmAsteRR?tab=overview"><img src="./streak.svg" height="165.5" alt="streak" /></a>
+  <a href="https://github.com/VPNmAsteRR?tab=overview"><img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/stats.svg" alt="статистика" width="49%" /></a>
+  <a href="https://github.com/VPNmAsteRR?tab=overview"><img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/streak.svg" alt="стрик" width="49%" /></a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/VPNmAsteRR/time-clicker"><img src="./pin1.svg" width="49.6%" alt="time-clicker" /></a>
-  <a href="https://github.com/VPNmAsteRR/TeleGBot"><img src="./pin2.svg" width="49.6%" alt="TeleGBot" /></a>
+  <a href="https://github.com/VPNmAsteRR/time-clicker"><img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/pin1.svg" alt="time-clicker" width="49%" /></a>
+  <a href="https://github.com/VPNmAsteRR/vozduhan"><img src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/main/pin2.svg" alt="Воздухан" width="49%" /></a>
 </p>
 
 ```console
@@ -34,19 +36,18 @@ python-dev. Собираю ботов, веб-сервисы и игры — о�
 ```
 
 ```console
-$ tree ~/projects -L 1
+$ ls ~/projects
 ```
 
 ```
-projects/
-├── tele-gbot/          Telegram-бот на Python — в работе
-├── time-clicker/       кликер на чистом HTML/JS
-├── vegaai/             AI-бот на GigaChat · Python + Rust
-├── bot-vizitka/        услуги, запись, заявки, админка
-├── vozduhan/           мини-игра для Яндекс Игр · 15 уровней
-├── osm-clients/        поиск клиентов по OSM + Wikidata
-├── destok-vpn/         сайт, кабинет, бот, Mini App
-└── qwen-lora/          LoRA-дообучение локальной модели
+tele-gbot/        Telegram-бот на Python — в работе
+time-clicker/     кликер на чистом HTML/JS
+vozduhan/         мини-игра для Яндекс Игр · 15 уровней · играется в браузере
+osm-client-finder/ поиск клиентов по OSM и Wikidata · Python без зависимостей
+qwen-lora/        LoRA-дообучение Qwen на CPU · реальный прогон на 9 часов
+vegaai/           AI-бот на GigaChat · Python + Rust
+bot-vizitka/      бот-визитка на aiogram 3 · деплой на VPS
+destok-vpn/       сайт, кабинет, бот и Mini App
 ```
 
 ```console
@@ -111,14 +112,6 @@ $ cat contacts.txt
   status   открыт к интересным задачам
 ```
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/output/snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/output/snake.svg" />
-    <img alt="snake" src="https://raw.githubusercontent.com/VPNmAsteRR/VPNmAsteRR/output/snake.svg" />
-  </picture>
-</p>
-
 ```console
 $ exit
 logout
@@ -126,5 +119,6 @@ Connection to github.com closed.
 ```
 
 <p align="center">
-  <sub><code>ametistovv</code> · Python · JavaScript · Rust · Linux · <a href="https://github.com/VPNmAsteRR?tab=repositories">весь код →</a></sub>
+  <sub><code>ametistovv</code> · Python · JavaScript · Rust · Linux</sub><br/>
+  <sub><a href="https://github.com/VPNmAsteRR?tab=repositories">весь код →</a></sub>
 </p>
