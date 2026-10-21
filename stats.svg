@@ -1,0 +1,25 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .h { font: 600 15px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #b366ff; }
+    .m { font: 400 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #8b949e; }
+    .v { font: 600 14px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #c792ea; }
+    .big { font: 800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #c792ea; }
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pop { 0% { transform: scale(.2); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="20" fill="#0d1117" stroke="#7c3aed"/>
+  <text x="40" y="44" class="h">~/stats</text>
+  <text x="455" y="44" text-anchor="end" class="m">$ whoami --stats</text>
+  <line x1="40" y1="62" x2="455" y2="62" stroke="#21262d"/>
+    <g class="fade" style="animation-delay:0.10s"><circle cx="44" cy="81" r="4" fill="#b366ff"/><text x="62" y="86" class="v">26 <tspan fill="#8b949e" style="font-weight:400">contributions</tspan></text></g>  <g class="fade" style="animation-delay:0.18s"><circle cx="44" cy="107" r="4" fill="#b366ff"/><text x="62" y="112" class="v">2 <tspan fill="#8b949e" style="font-weight:400">repositories</tspan></text></g>  <g class="fade" style="animation-delay:0.26s"><circle cx="44" cy="133" r="4" fill="#b366ff"/><text x="62" y="138" class="v">0 <tspan fill="#8b949e" style="font-weight:400">stars earned</tspan></text></g>  <g class="fade" style="animation-delay:0.34s"><circle cx="44" cy="159" r="4" fill="#b366ff"/><text x="62" y="164" class="v">1 <tspan fill="#8b949e" style="font-weight:400">followers</tspan></text></g>
+  <circle cx="408" cy="100" r="46" fill="none" stroke="#b366ff" stroke-opacity="0.18" stroke-width="7"/>
+  <circle cx="408" cy="100" r="46" fill="none" stroke="#b366ff" stroke-width="7" stroke-linecap="round"
+          stroke-dasharray="19.27 289.03" transform="rotate(-90 408 100)"
+          opacity="0">
+    <animate attributeName="stroke-dasharray" from="0 289.03" to="19.27 289.03" dur="1.2s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze"/>
+  </circle>
+  <text x="408" y="102" text-anchor="middle" class="big">0</text>
+  <text x="408" y="124" text-anchor="middle" class="m">day streak</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg width="495" height="195" viewBox="0 0 495 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .h { font: 600 15px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #b366ff; }
+    .m { font: 400 13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; fill: #8b949e; }
+    .v { font: 600 14px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #c792ea; }
+    .big { font: 800 30px 'Segoe UI',Ubuntu,'Helvetica Neue',sans-serif; fill: #c792ea; }
+    .fade { opacity: 0; animation: fade .6s ease-out forwards; }
+    @keyframes fade { to { opacity: 1; } }
+    @keyframes pop { 0% { transform: scale(.2); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+  </style>
+  <rect x="0.5" y="0.5" width="494" height="194" rx="20" fill="#0d1117" stroke="#7c3aed"/>
+  <text x="40" y="44" class="h">~/streak</text>
+  <text x="455" y="44" text-anchor="end" class="m">$ cat streak.log</text>
+  <line x1="40" y1="62" x2="455" y2="62" stroke="#21262d"/>
+  <g class="fade" style="animation-delay:.15s">
+    <text x="40" y="112" class="m">streak</text>
+    <text x="40" y="152" class="big" style="font-size:34px">0d</text>
+    <text x="40" y="174" class="m" style="font-size:11px">days in a row</text>
+  </g>
+  <g class="fade" style="animation-delay:.3s">
+    <text x="200" y="112" class="m">best</text>
+    <text x="200" y="152" class="big" style="font-size:34px">2d</text>
+    <text x="200" y="174" class="m" style="font-size:11px">personal best</text>
+  </g>
+  <g class="fade" style="animation-delay:.45s">
+    <text x="355" y="112" class="m">total</text>
+    <text x="355" y="152" class="big" style="font-size:34px">26</text>
+    <text x="355" y="174" class="m" style="font-size:11px">contributions</text>
+  </g>
+  <line x1="180" y1="96" x2="180" y2="168" stroke="#21262d"/>
+  <line x1="335" y1="96" x2="335" y2="168" stroke="#21262d"/>
+</svg>
